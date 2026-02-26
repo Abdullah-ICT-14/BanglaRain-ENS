@@ -1,0 +1,23 @@
+{
+  "k_nn": 6,
+  "T_in": 16,
+  "H_out": 8,
+  "d_model": 128,
+  "num_gat_layers": 3,
+  "gat_heads": 1,
+  "dropout": 0.1,
+  "lr": 0.002,
+  "weight_decay": 0.0001,
+  "lambda_q": 1.0,
+  "lambda_flash": 2.0,
+  "lambda_peak": 2.0,
+  "lambda_acc": 2.0,
+  "lambda_phys": 0.25,
+  "batch_size": 32,
+  "epochs": 10,
+  "quantiles": [
+    0.1,
+    0.5,
+    0.9
+  ]
+}
