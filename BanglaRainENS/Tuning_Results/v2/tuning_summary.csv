@@ -1,0 +1,2 @@
+trial,best_epoch,best_val_obj,best_val_CRPS_log,best_val_mean_brier,ckpt_path,k_nn,T_in,H_out,d_model,n_heads,num_temporal_layers,num_gat_layers,gat_heads,dropout,lr,weight_decay,batch_size,epochs,quantiles,lambda_q,lambda_flash,lambda_peak,lambda_acc,lambda_phys
+0,9,0.14039175141474008,0.1408697375897902,0.13991376523968996,/content/drive/MyDrive/Rainfall/BanglaRainENS/Tuning_Results/v2/trial_00/best_model.pt,5,16,8,128,2,1,1,2,0.3,0.002,1e-05,32,10,"(0.1, 0.5, 0.9)",1.0,2.0,2.0,2.0,0.0
